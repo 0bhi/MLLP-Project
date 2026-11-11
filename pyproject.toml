@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chartscribe"
+version = "1.0.0"
+description = "Chart-to-text summarisation for bar charts, pie charts, line charts, and infographics."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "ChartScribe Team" }]
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python>=4.9",
+  "pandas>=2.0",
+  "matplotlib>=3.8",
+  "rapidocr-onnxruntime>=1.2.3",
+  "scikit-learn>=1.3",
+  "scikit-image>=0.22",
+  "joblib>=1.3",
+  "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+app = [
+  "streamlit>=1.40",
+]
+llm = [
+  "torch>=2.2",
+  "transformers>=4.45",
+  "sentencepiece>=0.2",
+  "accelerate>=0.30",
+]
+report = [
+  "reportlab>=4.0",
+  "python-pptx>=0.6.23",
+  "rouge-score>=0.1.2",
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6",
+]
+
+[project.scripts]
+chartscribe = "chartscribe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+chartscribe = ["resources/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "slow: marks tests that load OCR or LLM models",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+ignore = ["PYI034", "RUF046", "RUF059"]

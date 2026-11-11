@@ -1,0 +1,572 @@
+{
+  "chart": {
+    "chart_type": "bar",
+    "title": "Student Enrollment by Programme",
+    "subtitle": null,
+    "x_label": null,
+    "y_label": "Students",
+    "metric": "Students",
+    "unit": null,
+    "points": [
+      {
+        "label": "Data Science",
+        "value": 80.904507,
+        "display_value": "80.9",
+        "percentage": null,
+        "color": "#1f77b4",
+        "group": null,
+        "confidence": 0.77911878581394,
+        "source": "y-axis ticks",
+        "bbox": [
+          146,
+          316,
+          276,
+          677
+        ]
+      },
+      {
+        "label": "Al",
+        "value": 117.101292,
+        "display_value": "117.1",
+        "percentage": null,
+        "color": "#ff7f0e",
+        "group": null,
+        "confidence": 0.77911878581394,
+        "source": "y-axis ticks",
+        "bbox": [
+          356,
+          154,
+          486,
+          678
+        ]
+      },
+      {
+        "label": "Cybersecurity",
+        "value": 71.073281,
+        "display_value": "71.07",
+        "percentage": null,
+        "color": "#2ca02c",
+        "group": null,
+        "confidence": 0.77911878581394,
+        "source": "y-axis ticks",
+        "bbox": [
+          566,
+          360,
+          696,
+          677
+        ]
+      },
+      {
+        "label": "Software Eng",
+        "value": 17.895287,
+        "display_value": "17.9",
+        "percentage": null,
+        "color": "#d62728",
+        "group": null,
+        "confidence": 0.77911878581394,
+        "source": "y-axis ticks",
+        "bbox": [
+          776,
+          598,
+          906,
+          677
+        ]
+      },
+      {
+        "label": "Design",
+        "value": 96.098219,
+        "display_value": "96.1",
+        "percentage": null,
+        "color": "#9467bd",
+        "group": null,
+        "confidence": 0.77911878581394,
+        "source": "y-axis ticks",
+        "bbox": [
+          986,
+          248,
+          1116,
+          677
+        ]
+      }
+    ],
+    "raw_text": [
+      "Student Enrollment by Programme",
+      "120",
+      "100",
+      "80",
+      "Students",
+      "60",
+      "40",
+      "Data Science",
+      "Al",
+      "Cybersecurity",
+      "Software Eng.",
+      "Design"
+    ],
+    "extraction_method": "opencv-color-contours",
+    "confidence": 0.91,
+    "warnings": [],
+    "debug": {
+      "bars": [
+        {
+          "bbox": [
+            146,
+            316,
+            276,
+            677
+          ],
+          "color": "#1f77b4"
+        },
+        {
+          "bbox": [
+            356,
+            154,
+            486,
+            678
+          ],
+          "color": "#ff7f0e"
+        },
+        {
+          "bbox": [
+            566,
+            360,
+            696,
+            677
+          ],
+          "color": "#2ca02c"
+        },
+        {
+          "bbox": [
+            776,
+            598,
+            906,
+            677
+          ],
+          "color": "#d62728"
+        },
+        {
+          "bbox": [
+            986,
+            248,
+            1116,
+            677
+          ],
+          "color": "#9467bd"
+        }
+      ],
+      "baseline_y": 677.0,
+      "plot_bounds": [
+        146.0,
+        154.0,
+        1116.0,
+        677.0
+      ],
+      "calibration": {
+        "slope": -0.22343694873952558,
+        "intercept": 151.51058254431567,
+        "quality": 0.0008812141860599828,
+        "source": "y-axis ticks"
+      },
+      "classification": {
+        "chart_type": "bar",
+        "confidence": 0.98,
+        "method": "heuristic",
+        "scores": {
+          "bar": 1,
+          "pie": 0.3268,
+          "line": 0.0,
+          "infographic": 0.4707
+        }
+      },
+      "image_quality": {
+        "width": 1179,
+        "height": 728,
+        "blur_score": 1261.38,
+        "is_blurry": false,
+        "colored_fraction": 0.259,
+        "white_fraction": 0.7247
+      }
+    },
+    "source_file": "data\\samples\\bar_revenue.png"
+  },
+  "summary": {
+    "text": "Student Enrollment by Programme compares Students across 5 categories. Al is highest at 117.1, while Software Eng is lowest at 17.9. The categories total 383.1. Al contributes 30.6% of that total. The average is 76.61.",
+    "style": "short",
+    "backend": "template",
+    "model": null,
+    "grounded": true,
+    "notes": []
+  },
+  "insights": {
+    "headline": "Student Enrollment by Programme compares Students across 5 categories. Al is highest at 117.1; Software Eng is lowest at 17.9.",
+    "facts": [
+      "Student Enrollment by Programme compares Students across 5 categories. Al is highest at 117.1; Software Eng is lowest at 17.9.",
+      "The categories total 383.1.",
+      "Al contributes 30.6% of the combined total.",
+      "The gap between the highest and lowest category is 99.21.",
+      "The average across categories is 76.61."
+    ],
+    "top_label": "Al",
+    "top_value": 117.10129243842873,
+    "bottom_label": "Software Eng",
+    "bottom_value": 17.895287198079387,
+    "total": 383.0725866341335,
+    "average": 76.6145173268267,
+    "top_share": 30.568956517442036,
+    "trend": null,
+    "change_percent": 18.779809835096287,
+    "context": {
+      "metric": "Students",
+      "unit": null,
+      "n_points": 5,
+      "chart_type": "bar",
+      "sources": [
+        "y-axis ticks"
+      ],
+      "title": "Student Enrollment by Programme"
+    }
+  },
+  "ocr": [
+    {
+      "text": "Student Enrollment by Programme",
+      "confidence": 0.8984280005097389,
+      "box": [
+        [
+          365.0,
+          12.0
+        ],
+        [
+          898.0,
+          14.0
+        ],
+        [
+          898.0,
+          41.0
+        ],
+        [
+          364.0,
+          39.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        631.0,
+        26.5
+      ]
+    },
+    {
+      "text": "120",
+      "confidence": 0.74973164498806,
+      "box": [
+        [
+          41.0,
+          129.0
+        ],
+        [
+          92.0,
+          129.0
+        ],
+        [
+          92.0,
+          154.0
+        ],
+        [
+          41.0,
+          154.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        66.5,
+        141.5
+      ]
+    },
+    {
+      "text": "100",
+      "confidence": 0.7496718168258667,
+      "box": [
+        [
+          42.0,
+          218.0
+        ],
+        [
+          90.0,
+          218.0
+        ],
+        [
+          90.0,
+          243.0
+        ],
+        [
+          42.0,
+          243.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        66.0,
+        230.5
+      ]
+    },
+    {
+      "text": "80",
+      "confidence": 0.509540319442749,
+      "box": [
+        [
+          56.0,
+          308.0
+        ],
+        [
+          87.0,
+          308.0
+        ],
+        [
+          87.0,
+          332.0
+        ],
+        [
+          56.0,
+          332.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        71.5,
+        320.0
+      ]
+    },
+    {
+      "text": "Students",
+      "confidence": 0.7867415083779229,
+      "box": [
+        [
+          10.0,
+          319.0
+        ],
+        [
+          38.0,
+          319.0
+        ],
+        [
+          38.0,
+          421.0
+        ],
+        [
+          10.0,
+          421.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        24.0,
+        370.0
+      ]
+    },
+    {
+      "text": "60",
+      "confidence": 0.6663095553716024,
+      "box": [
+        [
+          56.0,
+          399.0
+        ],
+        [
+          89.0,
+          399.0
+        ],
+        [
+          89.0,
+          422.0
+        ],
+        [
+          56.0,
+          422.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        72.5,
+        410.5
+      ]
+    },
+    {
+      "text": "40",
+      "confidence": 0.5022497971852621,
+      "box": [
+        [
+          56.0,
+          488.0
+        ],
+        [
+          91.0,
+          488.0
+        ],
+        [
+          91.0,
+          511.0
+        ],
+        [
+          56.0,
+          511.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        73.5,
+        499.5
+      ]
+    },
+    {
+      "text": "Data Science",
+      "confidence": 0.8618343930978042,
+      "box": [
+        [
+          142.0,
+          690.0
+        ],
+        [
+          283.0,
+          690.0
+        ],
+        [
+          283.0,
+          713.0
+        ],
+        [
+          142.0,
+          713.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        212.5,
+        701.5
+      ]
+    },
+    {
+      "text": "Al",
+      "confidence": 0.5928940971692404,
+      "box": [
+        [
+          408.0,
+          688.0
+        ],
+        [
+          434.0,
+          688.0
+        ],
+        [
+          434.0,
+          715.0
+        ],
+        [
+          408.0,
+          715.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        421.0,
+        701.5
+      ]
+    },
+    {
+      "text": "Cybersecurity",
+      "confidence": 0.850012651511601,
+      "box": [
+        [
+          560.0,
+          691.0
+        ],
+        [
+          702.0,
+          691.0
+        ],
+        [
+          702.0,
+          715.0
+        ],
+        [
+          560.0,
+          715.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        631.0,
+        703.0
+      ]
+    },
+    {
+      "text": "Software Eng.",
+      "confidence": 0.8670986635344369,
+      "box": [
+        [
+          767.0,
+          688.0
+        ],
+        [
+          913.0,
+          692.0
+        ],
+        [
+          913.0,
+          715.0
+        ],
+        [
+          767.0,
+          712.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        840.0,
+        701.5
+      ]
+    },
+    {
+      "text": "Design",
+      "confidence": 0.856624356337956,
+      "box": [
+        [
+          1012.0,
+          688.0
+        ],
+        [
+          1090.0,
+          691.0
+        ],
+        [
+          1089.0,
+          717.0
+        ],
+        [
+          1011.0,
+          715.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        1050.5,
+        702.5
+      ]
+    }
+  ],
+  "elapsed_seconds": 7.486,
+  "image_shape": [
+    1179,
+    728
+  ]
+}

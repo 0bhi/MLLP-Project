@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Models and caches
+.cache/
+*.onnx
+models/*.bin
+models/*.safetensors
+models/llm/
+!models/chart_type_classifier.joblib
+
+# Generated / large artifacts
+results/debug/
+results/tmp/
+data/generated_raw/
+*.log
+*.wav
+*.mp4.tmp
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+{
+  "chart_type": "bar",
+  "title": "Average Wait Time by Department",
+  "metric": "Minutes",
+  "labels": [
+    "Emergency",
+    "Radiology",
+    "Cardiology",
+    "Oncology",
+    "Pediatrics"
+  ],
+  "values": [
+    90,
+    120,
+    33,
+    82,
+    96
+  ],
+  "horizontal": false,
+  "value_labels": true
+}

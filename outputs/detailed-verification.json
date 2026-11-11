@@ -1,0 +1,717 @@
+{
+  "chart": {
+    "chart_type": "bar",
+    "title": "Average Wait Time by Department",
+    "subtitle": null,
+    "x_label": null,
+    "y_label": "Minutes",
+    "metric": "Minutes",
+    "unit": null,
+    "points": [
+      {
+        "label": "Emergency",
+        "value": 90.16037,
+        "display_value": "90",
+        "percentage": null,
+        "color": "#264653",
+        "group": null,
+        "confidence": 0.7781579094680058,
+        "source": "y-axis ticks",
+        "bbox": [
+          146,
+          285,
+          276,
+          677
+        ]
+      },
+      {
+        "label": "Radiology",
+        "value": 120.106752,
+        "display_value": "120",
+        "percentage": null,
+        "color": "#2a9d8f",
+        "group": null,
+        "confidence": 0.8450706958770752,
+        "source": "y-axis ticks",
+        "bbox": [
+          356,
+          154,
+          486,
+          677
+        ]
+      },
+      {
+        "label": "Cardiology",
+        "value": 33.239386,
+        "display_value": "33",
+        "percentage": null,
+        "color": "#e9c46a",
+        "group": null,
+        "confidence": 0.7781579094680058,
+        "source": "y-axis ticks",
+        "bbox": [
+          566,
+          534,
+          696,
+          677
+        ]
+      },
+      {
+        "label": "Oncology",
+        "value": 82.159429,
+        "display_value": "82",
+        "percentage": null,
+        "color": "#f4a261",
+        "group": null,
+        "confidence": 0.7781579094680058,
+        "source": "y-axis ticks",
+        "bbox": [
+          776,
+          320,
+          906,
+          677
+        ]
+      },
+      {
+        "label": "Pediatrics",
+        "value": 96.103927,
+        "display_value": "96",
+        "percentage": null,
+        "color": "#e76f51",
+        "group": null,
+        "confidence": 0.7781579094680058,
+        "source": "y-axis ticks",
+        "bbox": [
+          986,
+          259,
+          1116,
+          677
+        ]
+      }
+    ],
+    "raw_text": [
+      "Average Wait Time by Department",
+      "140 +",
+      "120",
+      "120",
+      "100 -",
+      "96",
+      "90",
+      "82",
+      "80",
+      "Minutes",
+      "60",
+      "33",
+      "Emergency",
+      "Radiology",
+      "Cardiology",
+      "Oncology",
+      "Pediatrics"
+    ],
+    "extraction_method": "opencv-color-contours",
+    "confidence": 0.91,
+    "warnings": [],
+    "debug": {
+      "bars": [
+        {
+          "bbox": [
+            146,
+            285,
+            276,
+            677
+          ],
+          "color": "#264653"
+        },
+        {
+          "bbox": [
+            356,
+            154,
+            486,
+            677
+          ],
+          "color": "#2a9d8f"
+        },
+        {
+          "bbox": [
+            566,
+            534,
+            696,
+            677
+          ],
+          "color": "#e9c46a"
+        },
+        {
+          "bbox": [
+            776,
+            320,
+            906,
+            677
+          ],
+          "color": "#f4a261"
+        },
+        {
+          "bbox": [
+            986,
+            259,
+            1116,
+            677
+          ],
+          "color": "#e76f51"
+        }
+      ],
+      "baseline_y": 677.0,
+      "plot_bounds": [
+        146.0,
+        154.0,
+        1116.0,
+        677.0
+      ],
+      "calibration": {
+        "slope": -0.22859833007897634,
+        "intercept": 155.31089453096217,
+        "quality": 0.0018420905319942449,
+        "source": "y-axis ticks"
+      },
+      "classification": {
+        "chart_type": "bar",
+        "confidence": 0.775,
+        "method": "heuristic",
+        "scores": {
+          "bar": 1,
+          "pie": 1,
+          "line": 0.0,
+          "infographic": 0.5094
+        }
+      },
+      "image_quality": {
+        "width": 1179,
+        "height": 728,
+        "blur_score": 1420.15,
+        "is_blurry": false,
+        "colored_fraction": 0.2776,
+        "white_fraction": 0.7047
+      }
+    },
+    "source_file": "data\\samples\\bar_products.png"
+  },
+  "summary": {
+    "text": "Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1, while Cardiology is lowest at 33.24. The categories total 421.8. Radiology contributes 28.5% of that total. The average is 84.35. Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1; Cardiology is lowest at 33.24. Radiology contributes 28.5% of the combined total. The gap between the highest and lowest category is 86.87. The average across categories is 84.35.",
+    "style": "detailed",
+    "backend": "template",
+    "model": null,
+    "grounded": true,
+    "notes": []
+  },
+  "insights": {
+    "headline": "Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1; Cardiology is lowest at 33.24.",
+    "facts": [
+      "Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1; Cardiology is lowest at 33.24.",
+      "The categories total 421.8.",
+      "Radiology contributes 28.5% of the combined total.",
+      "The gap between the highest and lowest category is 86.87.",
+      "The average across categories is 84.35."
+    ],
+    "top_label": "Radiology",
+    "top_value": 120.10675169879983,
+    "bottom_label": "Cardiology",
+    "bottom_value": 33.239386268788806,
+    "total": 421.76986437223957,
+    "average": 84.35397287444792,
+    "top_share": 28.476845276171208,
+    "trend": null,
+    "change_percent": 6.592205147151867,
+    "context": {
+      "metric": "Minutes",
+      "unit": null,
+      "n_points": 5,
+      "chart_type": "bar",
+      "sources": [
+        "y-axis ticks"
+      ],
+      "title": "Average Wait Time by Department"
+    }
+  },
+  "ocr": [
+    {
+      "text": "Average Wait Time by Department",
+      "confidence": 0.8884973209351301,
+      "box": [
+        [
+          367.0,
+          11.0
+        ],
+        [
+          898.0,
+          13.0
+        ],
+        [
+          898.0,
+          42.0
+        ],
+        [
+          366.0,
+          40.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        632.0,
+        26.5
+      ]
+    },
+    {
+      "text": "140 +",
+      "confidence": 0.6547385801871618,
+      "box": [
+        [
+          42.0,
+          55.0
+        ],
+        [
+          102.0,
+          55.0
+        ],
+        [
+          102.0,
+          79.0
+        ],
+        [
+          42.0,
+          79.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        72.0,
+        67.0
+      ]
+    },
+    {
+      "text": "120",
+      "confidence": 0.7450706958770752,
+      "box": [
+        [
+          403.0,
+          127.0
+        ],
+        [
+          441.0,
+          127.0
+        ],
+        [
+          441.0,
+          149.0
+        ],
+        [
+          403.0,
+          149.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        422.0,
+        138.0
+      ]
+    },
+    {
+      "text": "120",
+      "confidence": 0.693391227722168,
+      "box": [
+        [
+          42.0,
+          141.0
+        ],
+        [
+          92.0,
+          141.0
+        ],
+        [
+          92.0,
+          166.0
+        ],
+        [
+          42.0,
+          166.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        67.0,
+        153.5
+      ]
+    },
+    {
+      "text": "100 -",
+      "confidence": 0.6670715808868408,
+      "box": [
+        [
+          42.0,
+          229.0
+        ],
+        [
+          94.0,
+          229.0
+        ],
+        [
+          94.0,
+          255.0
+        ],
+        [
+          42.0,
+          255.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        68.0,
+        242.0
+      ]
+    },
+    {
+      "text": "96",
+      "confidence": 0.6663848161697388,
+      "box": [
+        [
+          1038.0,
+          232.0
+        ],
+        [
+          1064.0,
+          232.0
+        ],
+        [
+          1064.0,
+          253.0
+        ],
+        [
+          1038.0,
+          253.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        1051.0,
+        242.5
+      ]
+    },
+    {
+      "text": "90",
+      "confidence": 0.6664474407831827,
+      "box": [
+        [
+          198.0,
+          259.0
+        ],
+        [
+          226.0,
+          259.0
+        ],
+        [
+          226.0,
+          280.0
+        ],
+        [
+          198.0,
+          280.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        212.0,
+        269.5
+      ]
+    },
+    {
+      "text": "82",
+      "confidence": 0.5307084918022156,
+      "box": [
+        [
+          827.0,
+          294.0
+        ],
+        [
+          853.0,
+          294.0
+        ],
+        [
+          853.0,
+          315.0
+        ],
+        [
+          827.0,
+          315.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        840.0,
+        304.5
+      ]
+    },
+    {
+      "text": "80",
+      "confidence": 0.6664942701657613,
+      "box": [
+        [
+          55.0,
+          318.0
+        ],
+        [
+          89.0,
+          318.0
+        ],
+        [
+          89.0,
+          341.0
+        ],
+        [
+          55.0,
+          341.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        72.0,
+        329.5
+      ]
+    },
+    {
+      "text": "Minutes",
+      "confidence": 0.7655013501644135,
+      "box": [
+        [
+          14.0,
+          326.0
+        ],
+        [
+          38.0,
+          327.0
+        ],
+        [
+          36.0,
+          416.0
+        ],
+        [
+          12.0,
+          415.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        25.0,
+        371.0
+      ]
+    },
+    {
+      "text": "60",
+      "confidence": 0.7236157953739166,
+      "box": [
+        [
+          56.0,
+          404.0
+        ],
+        [
+          93.0,
+          404.0
+        ],
+        [
+          93.0,
+          427.0
+        ],
+        [
+          56.0,
+          427.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        74.5,
+        415.5
+      ]
+    },
+    {
+      "text": "33",
+      "confidence": 0.6665852864583334,
+      "box": [
+        [
+          618.0,
+          507.0
+        ],
+        [
+          645.0,
+          507.0
+        ],
+        [
+          645.0,
+          528.0
+        ],
+        [
+          618.0,
+          528.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        631.5,
+        517.5
+      ]
+    },
+    {
+      "text": "Emergency",
+      "confidence": 0.7681795537471772,
+      "box": [
+        [
+          151.0,
+          689.0
+        ],
+        [
+          271.0,
+          693.0
+        ],
+        [
+          270.0,
+          716.0
+        ],
+        [
+          150.0,
+          713.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        210.5,
+        702.5
+      ]
+    },
+    {
+      "text": "Radiology",
+      "confidence": 0.8445915043354034,
+      "box": [
+        [
+          368.0,
+          687.0
+        ],
+        [
+          474.0,
+          691.0
+        ],
+        [
+          473.0,
+          717.0
+        ],
+        [
+          367.0,
+          714.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        420.5,
+        702.0
+      ]
+    },
+    {
+      "text": "Cardiology",
+      "confidence": 0.8789465644142844,
+      "box": [
+        [
+          573.0,
+          686.0
+        ],
+        [
+          687.0,
+          691.0
+        ],
+        [
+          686.0,
+          717.0
+        ],
+        [
+          572.0,
+          713.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        629.5,
+        701.5
+      ]
+    },
+    {
+      "text": "Oncology",
+      "confidence": 0.886750168270535,
+      "box": [
+        [
+          790.0,
+          685.0
+        ],
+        [
+          891.0,
+          689.0
+        ],
+        [
+          889.0,
+          718.0
+        ],
+        [
+          789.0,
+          715.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        840.0,
+        701.5
+      ]
+    },
+    {
+      "text": "Pediatrics",
+      "confidence": 0.8101102601398121,
+      "box": [
+        [
+          999.0,
+          690.0
+        ],
+        [
+          1103.0,
+          690.0
+        ],
+        [
+          1103.0,
+          713.0
+        ],
+        [
+          999.0,
+          713.0
+        ]
+      ],
+      "image_width": 1179,
+      "image_height": 728,
+      "center": [
+        1051.0,
+        701.5
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.476,
+  "image_shape": [
+    1179,
+    728
+  ]
+}

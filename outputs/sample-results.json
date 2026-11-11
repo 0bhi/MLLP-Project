@@ -1,0 +1,3737 @@
+[
+  {
+    "chart": {
+      "chart_type": "bar",
+      "title": "Average Wait Time by Department",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": "Minutes",
+      "metric": "Minutes",
+      "unit": null,
+      "points": [
+        {
+          "label": "Emergency",
+          "value": 90.169682,
+          "display_value": "90",
+          "percentage": null,
+          "color": "#264653",
+          "group": null,
+          "confidence": 0.7790417996296671,
+          "source": "y-axis ticks",
+          "bbox": [
+            146,
+            285,
+            276,
+            677
+          ]
+        },
+        {
+          "label": "Radiology",
+          "value": 120.112885,
+          "display_value": "120",
+          "percentage": null,
+          "color": "#2a9d8f",
+          "group": null,
+          "confidence": 0.8450706958770752,
+          "source": "y-axis ticks",
+          "bbox": [
+            356,
+            154,
+            486,
+            677
+          ]
+        },
+        {
+          "label": "Cardiology",
+          "value": 33.254739,
+          "display_value": "33",
+          "percentage": null,
+          "color": "#e9c46a",
+          "group": null,
+          "confidence": 0.7790417996296671,
+          "source": "y-axis ticks",
+          "bbox": [
+            566,
+            534,
+            696,
+            677
+          ]
+        },
+        {
+          "label": "Oncology",
+          "value": 82.16959,
+          "display_value": "82",
+          "percentage": null,
+          "color": "#f4a261",
+          "group": null,
+          "confidence": 0.7790417996296671,
+          "source": "y-axis ticks",
+          "bbox": [
+            776,
+            320,
+            906,
+            677
+          ]
+        },
+        {
+          "label": "Pediatrics",
+          "value": 96.112608,
+          "display_value": "96",
+          "percentage": null,
+          "color": "#e76f51",
+          "group": null,
+          "confidence": 0.7790417996296671,
+          "source": "y-axis ticks",
+          "bbox": [
+            986,
+            259,
+            1116,
+            677
+          ]
+        }
+      ],
+      "raw_text": [
+        "Average Wait Time by Department",
+        "140 +",
+        "120",
+        "120",
+        "100 -",
+        "96",
+        "90",
+        "82",
+        "80",
+        "Minutes",
+        "60",
+        "33",
+        "Emergency",
+        "Radiology",
+        "Cardiology",
+        "Oncology",
+        "Pediatrics"
+      ],
+      "extraction_method": "opencv-color-contours",
+      "confidence": 0.91,
+      "warnings": [],
+      "debug": {
+        "bars": [
+          {
+            "bbox": [
+              146,
+              285,
+              276,
+              677
+            ],
+            "color": "#264653"
+          },
+          {
+            "bbox": [
+              356,
+              154,
+              486,
+              677
+            ],
+            "color": "#2a9d8f"
+          },
+          {
+            "bbox": [
+              566,
+              534,
+              696,
+              677
+            ],
+            "color": "#e9c46a"
+          },
+          {
+            "bbox": [
+              776,
+              320,
+              906,
+              677
+            ],
+            "color": "#f4a261"
+          },
+          {
+            "bbox": [
+              986,
+              259,
+              1116,
+              677
+            ],
+            "color": "#e76f51"
+          }
+        ],
+        "baseline_y": 677.0,
+        "plot_bounds": [
+          146.0,
+          154.0,
+          1116.0,
+          677.0
+        ],
+        "calibration": {
+          "slope": -0.2285740690546841,
+          "intercept": 155.31329188300742,
+          "quality": 0.0009582003703329178,
+          "source": "y-axis ticks"
+        },
+        "classification": {
+          "chart_type": "bar",
+          "confidence": 0.775,
+          "method": "heuristic",
+          "scores": {
+            "bar": 1,
+            "pie": 1,
+            "line": 0.0,
+            "infographic": 0.5094
+          }
+        },
+        "image_quality": {
+          "width": 1179,
+          "height": 728,
+          "blur_score": 1420.15,
+          "is_blurry": false,
+          "colored_fraction": 0.2776,
+          "white_fraction": 0.7047
+        }
+      },
+      "source_file": "data\\samples\\bar_products.png"
+    },
+    "summary": {
+      "text": "Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1, while Cardiology is lowest at 33.25. The categories total 421.8. Radiology contributes 28.5% of that total. The average is 84.36.",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1; Cardiology is lowest at 33.25.",
+      "facts": [
+        "Average Wait Time by Department compares Minutes across 5 categories. Radiology is highest at 120.1; Cardiology is lowest at 33.25.",
+        "The categories total 421.8.",
+        "Radiology contributes 28.5% of the combined total.",
+        "The gap between the highest and lowest category is 86.86.",
+        "The average across categories is 84.36."
+      ],
+      "top_label": "Radiology",
+      "top_value": 120.11288524858607,
+      "bottom_label": "Cardiology",
+      "bottom_value": 33.25473900780611,
+      "total": 421.81950424216734,
+      "average": 84.36390084843347,
+      "top_share": 28.474948180591724,
+      "trend": null,
+      "change_percent": 6.590824820786743,
+      "context": {
+        "metric": "Minutes",
+        "unit": null,
+        "n_points": 5,
+        "chart_type": "bar",
+        "sources": [
+          "y-axis ticks"
+        ],
+        "title": "Average Wait Time by Department"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Average Wait Time by Department",
+        "confidence": 0.8884973209351301,
+        "box": [
+          [
+            367.0,
+            11.0
+          ],
+          [
+            898.0,
+            13.0
+          ],
+          [
+            898.0,
+            42.0
+          ],
+          [
+            366.0,
+            40.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          632.0,
+          26.5
+        ]
+      },
+      {
+        "text": "140 +",
+        "confidence": 0.6547385801871618,
+        "box": [
+          [
+            42.0,
+            55.0
+          ],
+          [
+            102.0,
+            55.0
+          ],
+          [
+            102.0,
+            79.0
+          ],
+          [
+            42.0,
+            79.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          72.0,
+          67.0
+        ]
+      },
+      {
+        "text": "120",
+        "confidence": 0.7450706958770752,
+        "box": [
+          [
+            403.0,
+            127.0
+          ],
+          [
+            441.0,
+            127.0
+          ],
+          [
+            441.0,
+            149.0
+          ],
+          [
+            403.0,
+            149.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          422.0,
+          138.0
+        ]
+      },
+      {
+        "text": "120",
+        "confidence": 0.693391227722168,
+        "box": [
+          [
+            42.0,
+            141.0
+          ],
+          [
+            92.0,
+            141.0
+          ],
+          [
+            92.0,
+            166.0
+          ],
+          [
+            42.0,
+            166.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          67.0,
+          153.5
+        ]
+      },
+      {
+        "text": "100 -",
+        "confidence": 0.6670715808868408,
+        "box": [
+          [
+            42.0,
+            229.0
+          ],
+          [
+            94.0,
+            229.0
+          ],
+          [
+            94.0,
+            255.0
+          ],
+          [
+            42.0,
+            255.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          68.0,
+          242.0
+        ]
+      },
+      {
+        "text": "96",
+        "confidence": 0.6663848161697388,
+        "box": [
+          [
+            1038.0,
+            232.0
+          ],
+          [
+            1064.0,
+            232.0
+          ],
+          [
+            1064.0,
+            253.0
+          ],
+          [
+            1038.0,
+            253.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          1051.0,
+          242.5
+        ]
+      },
+      {
+        "text": "90",
+        "confidence": 0.6664474407831827,
+        "box": [
+          [
+            198.0,
+            259.0
+          ],
+          [
+            226.0,
+            259.0
+          ],
+          [
+            226.0,
+            280.0
+          ],
+          [
+            198.0,
+            280.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          212.0,
+          269.5
+        ]
+      },
+      {
+        "text": "82",
+        "confidence": 0.5307084918022156,
+        "box": [
+          [
+            827.0,
+            294.0
+          ],
+          [
+            853.0,
+            294.0
+          ],
+          [
+            853.0,
+            315.0
+          ],
+          [
+            827.0,
+            315.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          840.0,
+          304.5
+        ]
+      },
+      {
+        "text": "80",
+        "confidence": 0.6664942701657613,
+        "box": [
+          [
+            55.0,
+            318.0
+          ],
+          [
+            89.0,
+            318.0
+          ],
+          [
+            89.0,
+            341.0
+          ],
+          [
+            55.0,
+            341.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          72.0,
+          329.5
+        ]
+      },
+      {
+        "text": "Minutes",
+        "confidence": 0.7655013501644135,
+        "box": [
+          [
+            14.0,
+            326.0
+          ],
+          [
+            38.0,
+            327.0
+          ],
+          [
+            36.0,
+            416.0
+          ],
+          [
+            12.0,
+            415.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          25.0,
+          371.0
+        ]
+      },
+      {
+        "text": "60",
+        "confidence": 0.7236157953739166,
+        "box": [
+          [
+            56.0,
+            404.0
+          ],
+          [
+            93.0,
+            404.0
+          ],
+          [
+            93.0,
+            427.0
+          ],
+          [
+            56.0,
+            427.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          74.5,
+          415.5
+        ]
+      },
+      {
+        "text": "33",
+        "confidence": 0.6665852864583334,
+        "box": [
+          [
+            618.0,
+            507.0
+          ],
+          [
+            645.0,
+            507.0
+          ],
+          [
+            645.0,
+            528.0
+          ],
+          [
+            618.0,
+            528.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          631.5,
+          517.5
+        ]
+      },
+      {
+        "text": "Emergency",
+        "confidence": 0.7681795537471772,
+        "box": [
+          [
+            151.0,
+            689.0
+          ],
+          [
+            271.0,
+            693.0
+          ],
+          [
+            270.0,
+            716.0
+          ],
+          [
+            150.0,
+            713.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          210.5,
+          702.5
+        ]
+      },
+      {
+        "text": "Radiology",
+        "confidence": 0.8445915043354034,
+        "box": [
+          [
+            368.0,
+            687.0
+          ],
+          [
+            474.0,
+            691.0
+          ],
+          [
+            473.0,
+            717.0
+          ],
+          [
+            367.0,
+            714.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          420.5,
+          702.0
+        ]
+      },
+      {
+        "text": "Cardiology",
+        "confidence": 0.8789465644142844,
+        "box": [
+          [
+            573.0,
+            686.0
+          ],
+          [
+            687.0,
+            691.0
+          ],
+          [
+            686.0,
+            717.0
+          ],
+          [
+            572.0,
+            713.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          629.5,
+          701.5
+        ]
+      },
+      {
+        "text": "Oncology",
+        "confidence": 0.886750168270535,
+        "box": [
+          [
+            790.0,
+            685.0
+          ],
+          [
+            891.0,
+            689.0
+          ],
+          [
+            889.0,
+            718.0
+          ],
+          [
+            789.0,
+            715.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          840.0,
+          701.5
+        ]
+      },
+      {
+        "text": "Pediatrics",
+        "confidence": 0.8101102601398121,
+        "box": [
+          [
+            999.0,
+            690.0
+          ],
+          [
+            1103.0,
+            690.0
+          ],
+          [
+            1103.0,
+            713.0
+          ],
+          [
+            999.0,
+            713.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          1051.0,
+          701.5
+        ]
+      }
+    ],
+    "elapsed_seconds": 6.747,
+    "image_shape": [
+      1179,
+      728
+    ]
+  },
+  {
+    "chart": {
+      "chart_type": "bar",
+      "title": "Student Enrollment by Programme",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": "Students",
+      "metric": "Students",
+      "unit": null,
+      "points": [
+        {
+          "label": "Data Science",
+          "value": 80.904507,
+          "display_value": "80.9",
+          "percentage": null,
+          "color": "#1f77b4",
+          "group": null,
+          "confidence": 0.77911878581394,
+          "source": "y-axis ticks",
+          "bbox": [
+            146,
+            316,
+            276,
+            677
+          ]
+        },
+        {
+          "label": "Al",
+          "value": 117.101292,
+          "display_value": "117.1",
+          "percentage": null,
+          "color": "#ff7f0e",
+          "group": null,
+          "confidence": 0.77911878581394,
+          "source": "y-axis ticks",
+          "bbox": [
+            356,
+            154,
+            486,
+            678
+          ]
+        },
+        {
+          "label": "Cybersecurity",
+          "value": 71.073281,
+          "display_value": "71.07",
+          "percentage": null,
+          "color": "#2ca02c",
+          "group": null,
+          "confidence": 0.77911878581394,
+          "source": "y-axis ticks",
+          "bbox": [
+            566,
+            360,
+            696,
+            677
+          ]
+        },
+        {
+          "label": "Software Eng",
+          "value": 17.895287,
+          "display_value": "17.9",
+          "percentage": null,
+          "color": "#d62728",
+          "group": null,
+          "confidence": 0.77911878581394,
+          "source": "y-axis ticks",
+          "bbox": [
+            776,
+            598,
+            906,
+            677
+          ]
+        },
+        {
+          "label": "Design",
+          "value": 96.098219,
+          "display_value": "96.1",
+          "percentage": null,
+          "color": "#9467bd",
+          "group": null,
+          "confidence": 0.77911878581394,
+          "source": "y-axis ticks",
+          "bbox": [
+            986,
+            248,
+            1116,
+            677
+          ]
+        }
+      ],
+      "raw_text": [
+        "Student Enrollment by Programme",
+        "120",
+        "100",
+        "80",
+        "Students",
+        "60",
+        "40",
+        "Data Science",
+        "Al",
+        "Cybersecurity",
+        "Software Eng.",
+        "Design"
+      ],
+      "extraction_method": "opencv-color-contours",
+      "confidence": 0.91,
+      "warnings": [],
+      "debug": {
+        "bars": [
+          {
+            "bbox": [
+              146,
+              316,
+              276,
+              677
+            ],
+            "color": "#1f77b4"
+          },
+          {
+            "bbox": [
+              356,
+              154,
+              486,
+              678
+            ],
+            "color": "#ff7f0e"
+          },
+          {
+            "bbox": [
+              566,
+              360,
+              696,
+              677
+            ],
+            "color": "#2ca02c"
+          },
+          {
+            "bbox": [
+              776,
+              598,
+              906,
+              677
+            ],
+            "color": "#d62728"
+          },
+          {
+            "bbox": [
+              986,
+              248,
+              1116,
+              677
+            ],
+            "color": "#9467bd"
+          }
+        ],
+        "baseline_y": 677.0,
+        "plot_bounds": [
+          146.0,
+          154.0,
+          1116.0,
+          677.0
+        ],
+        "calibration": {
+          "slope": -0.22343694873952558,
+          "intercept": 151.51058254431567,
+          "quality": 0.0008812141860599828,
+          "source": "y-axis ticks"
+        },
+        "classification": {
+          "chart_type": "bar",
+          "confidence": 0.98,
+          "method": "heuristic",
+          "scores": {
+            "bar": 1,
+            "pie": 0.3268,
+            "line": 0.0,
+            "infographic": 0.4707
+          }
+        },
+        "image_quality": {
+          "width": 1179,
+          "height": 728,
+          "blur_score": 1261.38,
+          "is_blurry": false,
+          "colored_fraction": 0.259,
+          "white_fraction": 0.7247
+        }
+      },
+      "source_file": "data\\samples\\bar_revenue.png"
+    },
+    "summary": {
+      "text": "Student Enrollment by Programme compares Students across 5 categories. Al is highest at 117.1, while Software Eng is lowest at 17.9. The categories total 383.1. Al contributes 30.6% of that total. The average is 76.61.",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Student Enrollment by Programme compares Students across 5 categories. Al is highest at 117.1; Software Eng is lowest at 17.9.",
+      "facts": [
+        "Student Enrollment by Programme compares Students across 5 categories. Al is highest at 117.1; Software Eng is lowest at 17.9.",
+        "The categories total 383.1.",
+        "Al contributes 30.6% of the combined total.",
+        "The gap between the highest and lowest category is 99.21.",
+        "The average across categories is 76.61."
+      ],
+      "top_label": "Al",
+      "top_value": 117.10129243842873,
+      "bottom_label": "Software Eng",
+      "bottom_value": 17.895287198079387,
+      "total": 383.0725866341335,
+      "average": 76.6145173268267,
+      "top_share": 30.568956517442036,
+      "trend": null,
+      "change_percent": 18.779809835096287,
+      "context": {
+        "metric": "Students",
+        "unit": null,
+        "n_points": 5,
+        "chart_type": "bar",
+        "sources": [
+          "y-axis ticks"
+        ],
+        "title": "Student Enrollment by Programme"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Student Enrollment by Programme",
+        "confidence": 0.8984280005097389,
+        "box": [
+          [
+            365.0,
+            12.0
+          ],
+          [
+            898.0,
+            14.0
+          ],
+          [
+            898.0,
+            41.0
+          ],
+          [
+            364.0,
+            39.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          631.0,
+          26.5
+        ]
+      },
+      {
+        "text": "120",
+        "confidence": 0.74973164498806,
+        "box": [
+          [
+            41.0,
+            129.0
+          ],
+          [
+            92.0,
+            129.0
+          ],
+          [
+            92.0,
+            154.0
+          ],
+          [
+            41.0,
+            154.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          66.5,
+          141.5
+        ]
+      },
+      {
+        "text": "100",
+        "confidence": 0.7496718168258667,
+        "box": [
+          [
+            42.0,
+            218.0
+          ],
+          [
+            90.0,
+            218.0
+          ],
+          [
+            90.0,
+            243.0
+          ],
+          [
+            42.0,
+            243.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          66.0,
+          230.5
+        ]
+      },
+      {
+        "text": "80",
+        "confidence": 0.509540319442749,
+        "box": [
+          [
+            56.0,
+            308.0
+          ],
+          [
+            87.0,
+            308.0
+          ],
+          [
+            87.0,
+            332.0
+          ],
+          [
+            56.0,
+            332.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          71.5,
+          320.0
+        ]
+      },
+      {
+        "text": "Students",
+        "confidence": 0.7867415083779229,
+        "box": [
+          [
+            10.0,
+            319.0
+          ],
+          [
+            38.0,
+            319.0
+          ],
+          [
+            38.0,
+            421.0
+          ],
+          [
+            10.0,
+            421.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          24.0,
+          370.0
+        ]
+      },
+      {
+        "text": "60",
+        "confidence": 0.6663095553716024,
+        "box": [
+          [
+            56.0,
+            399.0
+          ],
+          [
+            89.0,
+            399.0
+          ],
+          [
+            89.0,
+            422.0
+          ],
+          [
+            56.0,
+            422.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          72.5,
+          410.5
+        ]
+      },
+      {
+        "text": "40",
+        "confidence": 0.5022497971852621,
+        "box": [
+          [
+            56.0,
+            488.0
+          ],
+          [
+            91.0,
+            488.0
+          ],
+          [
+            91.0,
+            511.0
+          ],
+          [
+            56.0,
+            511.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          73.5,
+          499.5
+        ]
+      },
+      {
+        "text": "Data Science",
+        "confidence": 0.8618343930978042,
+        "box": [
+          [
+            142.0,
+            690.0
+          ],
+          [
+            283.0,
+            690.0
+          ],
+          [
+            283.0,
+            713.0
+          ],
+          [
+            142.0,
+            713.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          212.5,
+          701.5
+        ]
+      },
+      {
+        "text": "Al",
+        "confidence": 0.5928940971692404,
+        "box": [
+          [
+            408.0,
+            688.0
+          ],
+          [
+            434.0,
+            688.0
+          ],
+          [
+            434.0,
+            715.0
+          ],
+          [
+            408.0,
+            715.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          421.0,
+          701.5
+        ]
+      },
+      {
+        "text": "Cybersecurity",
+        "confidence": 0.850012651511601,
+        "box": [
+          [
+            560.0,
+            691.0
+          ],
+          [
+            702.0,
+            691.0
+          ],
+          [
+            702.0,
+            715.0
+          ],
+          [
+            560.0,
+            715.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          631.0,
+          703.0
+        ]
+      },
+      {
+        "text": "Software Eng.",
+        "confidence": 0.8670986635344369,
+        "box": [
+          [
+            767.0,
+            688.0
+          ],
+          [
+            913.0,
+            692.0
+          ],
+          [
+            913.0,
+            715.0
+          ],
+          [
+            767.0,
+            712.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          840.0,
+          701.5
+        ]
+      },
+      {
+        "text": "Design",
+        "confidence": 0.856624356337956,
+        "box": [
+          [
+            1012.0,
+            688.0
+          ],
+          [
+            1090.0,
+            691.0
+          ],
+          [
+            1089.0,
+            717.0
+          ],
+          [
+            1011.0,
+            715.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          1050.5,
+          702.5
+        ]
+      }
+    ],
+    "elapsed_seconds": 2.651,
+    "image_shape": [
+      1179,
+      728
+    ]
+  },
+  {
+    "chart": {
+      "chart_type": "infographic",
+      "title": "Learning Outcomes",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": null,
+      "metric": "reported metrics",
+      "unit": null,
+      "points": [
+        {
+          "label": "average rating",
+          "value": 4.6,
+          "display_value": "4.6/5",
+          "percentage": null,
+          "color": null,
+          "group": null,
+          "confidence": 0.8389589258035024,
+          "source": "infographic text",
+          "bbox": null
+        },
+        {
+          "label": "course completion",
+          "value": 89.0,
+          "display_value": "89%",
+          "percentage": 89.0,
+          "color": null,
+          "group": null,
+          "confidence": 0.8273989427089691,
+          "source": "infographic text",
+          "bbox": null
+        },
+        {
+          "label": "learners enrolled",
+          "value": 32000.0,
+          "display_value": "32K",
+          "percentage": null,
+          "color": null,
+          "group": null,
+          "confidence": 0.8219451177120208,
+          "source": "infographic text",
+          "bbox": null
+        }
+      ],
+      "raw_text": [
+        "Learning Outcomes",
+        "Key performance indicators",
+        "89%",
+        "4.6/5",
+        "32K",
+        "course completion",
+        "average rating",
+        "learners enrolled",
+        "Source: synthetic demonstration dataset"
+      ],
+      "extraction_method": "layout-aware-ocr",
+      "confidence": 0.7745,
+      "warnings": [],
+      "debug": {
+        "text_rows": [
+          "Learning Outcomes",
+          "Key performance indicators",
+          "89% 4.6/5 32K",
+          "course completion average rating learners enrolled",
+          "Source: synthetic demonstration dataset"
+        ],
+        "key_texts": [
+          "Learning Outcomes",
+          "Key performance indicators",
+          "course completion average rating learners enrolled",
+          "Source: synthetic demonstration dataset"
+        ],
+        "classification": {
+          "chart_type": "infographic",
+          "confidence": 0.86,
+          "method": "heuristic-layout",
+          "scores": {
+            "bar": 0.9847,
+            "pie": 0,
+            "line": 0.0,
+            "infographic": 0.5468
+          }
+        },
+        "image_quality": {
+          "width": 1480,
+          "height": 850,
+          "blur_score": 300.45,
+          "is_blurry": false,
+          "colored_fraction": 0.0148,
+          "white_fraction": 0.754
+        }
+      },
+      "source_file": "data\\samples\\infographic_ai.png"
+    },
+    "summary": {
+      "text": "Learning Outcomes highlights 3 numeric facts. Key figures include average rating (4.6/5), course completion (89%), and learners enrolled (32K).",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Learning Outcomes highlights 3 numeric facts.",
+      "facts": [
+        "average rating: 4.6/5.",
+        "course completion: 89%.",
+        "learners enrolled: 32K."
+      ],
+      "top_label": "learners enrolled",
+      "top_value": 32000.0,
+      "bottom_label": "average rating",
+      "bottom_value": 4.6,
+      "total": 32093.6,
+      "average": 10697.866666666667,
+      "top_share": 99.70835306727821,
+      "trend": null,
+      "change_percent": null,
+      "context": {
+        "metric": "reported metrics",
+        "unit": null,
+        "n_points": 3,
+        "chart_type": "infographic",
+        "sources": [
+          "infographic text"
+        ],
+        "title": "Learning Outcomes"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Learning Outcomes",
+        "confidence": 0.9087314738167657,
+        "box": [
+          [
+            95.0,
+            57.0
+          ],
+          [
+            553.0,
+            61.0
+          ],
+          [
+            553.0,
+            103.0
+          ],
+          [
+            94.0,
+            99.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          323.5,
+          80.0
+        ]
+      },
+      {
+        "text": "Key performance indicators",
+        "confidence": 0.8809416404476872,
+        "box": [
+          [
+            96.0,
+            121.0
+          ],
+          [
+            383.0,
+            121.0
+          ],
+          [
+            383.0,
+            144.0
+          ],
+          [
+            96.0,
+            144.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          239.5,
+          132.5
+        ]
+      },
+      {
+        "text": "89%",
+        "confidence": 0.7473989427089691,
+        "box": [
+          [
+            124.0,
+            235.0
+          ],
+          [
+            272.0,
+            235.0
+          ],
+          [
+            272.0,
+            290.0
+          ],
+          [
+            124.0,
+            290.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          198.0,
+          262.5
+        ]
+      },
+      {
+        "text": "4.6/5",
+        "confidence": 0.7589589258035024,
+        "box": [
+          [
+            572.0,
+            236.0
+          ],
+          [
+            745.0,
+            236.0
+          ],
+          [
+            745.0,
+            290.0
+          ],
+          [
+            572.0,
+            290.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          658.5,
+          263.0
+        ]
+      },
+      {
+        "text": "32K",
+        "confidence": 0.7419451177120209,
+        "box": [
+          [
+            1021.0,
+            234.0
+          ],
+          [
+            1158.0,
+            234.0
+          ],
+          [
+            1158.0,
+            289.0
+          ],
+          [
+            1021.0,
+            289.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          1089.5,
+          261.5
+        ]
+      },
+      {
+        "text": "course completion",
+        "confidence": 0.902587052848604,
+        "box": [
+          [
+            119.0,
+            335.0
+          ],
+          [
+            294.0,
+            332.0
+          ],
+          [
+            295.0,
+            356.0
+          ],
+          [
+            119.0,
+            358.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          207.0,
+          345.0
+        ]
+      },
+      {
+        "text": "average rating",
+        "confidence": 0.8420708894729614,
+        "box": [
+          [
+            567.0,
+            332.0
+          ],
+          [
+            709.0,
+            335.0
+          ],
+          [
+            709.0,
+            358.0
+          ],
+          [
+            567.0,
+            356.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          638.0,
+          345.0
+        ]
+      },
+      {
+        "text": "learners enrolled",
+        "confidence": 0.9046400487422943,
+        "box": [
+          [
+            1019.0,
+            334.0
+          ],
+          [
+            1180.0,
+            334.0
+          ],
+          [
+            1180.0,
+            356.0
+          ],
+          [
+            1019.0,
+            356.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          1099.5,
+          345.0
+        ]
+      },
+      {
+        "text": "Source: synthetic demonstration dataset",
+        "confidence": 0.9138120755553245,
+        "box": [
+          [
+            95.0,
+            741.0
+          ],
+          [
+            436.0,
+            741.0
+          ],
+          [
+            436.0,
+            760.0
+          ],
+          [
+            95.0,
+            760.0
+          ]
+        ],
+        "image_width": 1480,
+        "image_height": 850,
+        "center": [
+          265.5,
+          750.5
+        ]
+      }
+    ],
+    "elapsed_seconds": 3.486,
+    "image_shape": [
+      1480,
+      850
+    ]
+  },
+  {
+    "chart": {
+      "chart_type": "line",
+      "title": "Temperature Anomaly",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": "Temperature (°",
+      "metric": "Temperature (°",
+      "unit": null,
+      "points": [
+        {
+          "label": "2019",
+          "value": 66.887809,
+          "display_value": "66.89",
+          "percentage": null,
+          "color": "#71939c",
+          "group": null,
+          "confidence": 0.7,
+          "source": "y-axis calibration",
+          "bbox": [
+            143,
+            351,
+            147,
+            355
+          ]
+        },
+        {
+          "label": "2020",
+          "value": 75.936736,
+          "display_value": "75.94",
+          "percentage": null,
+          "color": "#71939c",
+          "group": null,
+          "confidence": 0.7,
+          "source": "y-axis calibration",
+          "bbox": [
+            337,
+            307,
+            341,
+            311
+          ]
+        },
+        {
+          "label": "2021",
+          "value": 81.900801,
+          "display_value": "81.9",
+          "percentage": null,
+          "color": "#71939c",
+          "group": null,
+          "confidence": 0.7,
+          "source": "y-axis calibration",
+          "bbox": [
+            533,
+            278,
+            537,
+            282
+          ]
+        },
+        {
+          "label": "2022",
+          "value": 94.03459,
+          "display_value": "94.03",
+          "percentage": null,
+          "color": "#71939c",
+          "group": null,
+          "confidence": 0.7,
+          "source": "y-axis calibration",
+          "bbox": [
+            725,
+            219,
+            729,
+            223
+          ]
+        },
+        {
+          "label": "2023",
+          "value": 93.006302,
+          "display_value": "93.01",
+          "percentage": null,
+          "color": "#71939c",
+          "group": null,
+          "confidence": 0.7,
+          "source": "y-axis calibration",
+          "bbox": [
+            919,
+            224,
+            923,
+            228
+          ]
+        }
+      ],
+      "raw_text": [
+        "Temperature Anomaly",
+        "120",
+        "100",
+        "80",
+        "(0.)",
+        "Temperature (°",
+        "40",
+        "20",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "extraction_method": "colour-trace",
+      "confidence": 0.5,
+      "warnings": [],
+      "debug": {
+        "line_bbox": [
+          139,
+          156,
+          1124,
+          361
+        ],
+        "line_color": "#71939c",
+        "classification": {
+          "chart_type": "line",
+          "confidence": 0.5367,
+          "method": "heuristic",
+          "scores": {
+            "bar": 0.0,
+            "pie": 0,
+            "line": 0.5667,
+            "infographic": 0.6912
+          }
+        },
+        "image_quality": {
+          "width": 1179,
+          "height": 728,
+          "blur_score": 1106.54,
+          "is_blurry": false,
+          "colored_fraction": 0.0074,
+          "white_fraction": 0.9784
+        }
+      },
+      "source_file": "data\\samples\\line_users.png"
+    },
+    "summary": {
+      "text": "Temperature Anomaly shows an upward pattern across 5 points. It starts at 66.89 and ends at 93.01. This represents a +39.0% change from the first to the last point. The highest point is 2022 (94.03), and the lowest is 2019 (66.89).",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Temperature Anomaly shows an upward trend across 5 points.",
+      "facts": [
+        "The series starts at 66.89 and ends at 93.01.",
+        "That represents a change of +39.0% from the first to the last point.",
+        "The highest point is 2022 at 94.03; the lowest is 2019 at 66.89."
+      ],
+      "top_label": "2022",
+      "top_value": 94.03458959446772,
+      "bottom_label": "2019",
+      "bottom_value": 66.88780882197536,
+      "total": 411.7662378254611,
+      "average": 82.35324756509222,
+      "top_share": 22.836886795543197,
+      "trend": "up",
+      "change_percent": 39.0482123454434,
+      "context": {
+        "metric": "Temperature (°",
+        "unit": null,
+        "n_points": 5,
+        "chart_type": "line",
+        "sources": [
+          "y-axis calibration"
+        ],
+        "title": "Temperature Anomaly"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Temperature Anomaly",
+        "confidence": 0.8703427493572236,
+        "box": [
+          [
+            460.0,
+            10.0
+          ],
+          [
+            798.0,
+            13.0
+          ],
+          [
+            797.0,
+            43.0
+          ],
+          [
+            460.0,
+            39.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          629.0,
+          26.5
+        ]
+      },
+      {
+        "text": "120",
+        "confidence": 0.7495840638875961,
+        "box": [
+          [
+            39.0,
+            84.0
+          ],
+          [
+            89.0,
+            81.0
+          ],
+          [
+            90.0,
+            106.0
+          ],
+          [
+            41.0,
+            109.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          64.5,
+          95.0
+        ]
+      },
+      {
+        "text": "100",
+        "confidence": 0.749553382396698,
+        "box": [
+          [
+            41.0,
+            179.0
+          ],
+          [
+            90.0,
+            179.0
+          ],
+          [
+            90.0,
+            205.0
+          ],
+          [
+            41.0,
+            205.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          65.5,
+          192.0
+        ]
+      },
+      {
+        "text": "80",
+        "confidence": 0.6663787166277567,
+        "box": [
+          [
+            55.0,
+            277.0
+          ],
+          [
+            89.0,
+            277.0
+          ],
+          [
+            89.0,
+            301.0
+          ],
+          [
+            55.0,
+            301.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          72.0,
+          289.0
+        ]
+      },
+      {
+        "text": "(0.)",
+        "confidence": 0.7139802575111389,
+        "box": [
+          [
+            9.0,
+            279.0
+          ],
+          [
+            39.0,
+            279.0
+          ],
+          [
+            39.0,
+            324.0
+          ],
+          [
+            9.0,
+            324.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          24.0,
+          301.5
+        ]
+      },
+      {
+        "text": "Temperature (°",
+        "confidence": 0.8532772978146871,
+        "box": [
+          [
+            10.0,
+            306.0
+          ],
+          [
+            40.0,
+            307.0
+          ],
+          [
+            38.0,
+            463.0
+          ],
+          [
+            8.0,
+            463.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          24.0,
+          384.5
+        ]
+      },
+      {
+        "text": "40",
+        "confidence": 0.5314044157663981,
+        "box": [
+          [
+            56.0,
+            472.0
+          ],
+          [
+            90.0,
+            472.0
+          ],
+          [
+            90.0,
+            496.0
+          ],
+          [
+            56.0,
+            496.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          73.0,
+          484.0
+        ]
+      },
+      {
+        "text": "20",
+        "confidence": 0.5020209948221842,
+        "box": [
+          [
+            54.0,
+            568.0
+          ],
+          [
+            91.0,
+            568.0
+          ],
+          [
+            91.0,
+            594.0
+          ],
+          [
+            54.0,
+            594.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          72.5,
+          581.0
+        ]
+      },
+      {
+        "text": "2019",
+        "confidence": 0.7055386662483215,
+        "box": [
+          [
+            118.0,
+            688.0
+          ],
+          [
+            174.0,
+            688.0
+          ],
+          [
+            174.0,
+            713.0
+          ],
+          [
+            118.0,
+            713.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          146.0,
+          700.5
+        ]
+      },
+      {
+        "text": "2020",
+        "confidence": 0.7997402667999267,
+        "box": [
+          [
+            310.0,
+            689.0
+          ],
+          [
+            369.0,
+            686.0
+          ],
+          [
+            370.0,
+            712.0
+          ],
+          [
+            312.0,
+            714.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          340.0,
+          700.0
+        ]
+      },
+      {
+        "text": "2021",
+        "confidence": 0.7995372414588928,
+        "box": [
+          [
+            507.0,
+            688.0
+          ],
+          [
+            563.0,
+            688.0
+          ],
+          [
+            563.0,
+            714.0
+          ],
+          [
+            507.0,
+            714.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          535.0,
+          701.0
+        ]
+      },
+      {
+        "text": "2022",
+        "confidence": 0.7711075901985168,
+        "box": [
+          [
+            700.0,
+            688.0
+          ],
+          [
+            756.0,
+            688.0
+          ],
+          [
+            756.0,
+            714.0
+          ],
+          [
+            700.0,
+            714.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          728.0,
+          701.0
+        ]
+      },
+      {
+        "text": "2023",
+        "confidence": 0.799843680858612,
+        "box": [
+          [
+            893.0,
+            688.0
+          ],
+          [
+            951.0,
+            688.0
+          ],
+          [
+            951.0,
+            713.0
+          ],
+          [
+            893.0,
+            713.0
+          ]
+        ],
+        "image_width": 1179,
+        "image_height": 728,
+        "center": [
+          922.0,
+          700.5
+        ]
+      }
+    ],
+    "elapsed_seconds": 2.908,
+    "image_shape": [
+      1179,
+      728
+    ]
+  },
+  {
+    "chart": {
+      "chart_type": "pie",
+      "title": "Browser Market Share",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": null,
+      "metric": "share",
+      "unit": "%",
+      "points": [
+        {
+          "label": "Safari",
+          "value": 27.0,
+          "display_value": "27.0%",
+          "percentage": 27.0,
+          "color": "#23877b",
+          "group": null,
+          "confidence": 0.8112558312926974,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Other",
+          "value": 23.0,
+          "display_value": "23.0%",
+          "percentage": 23.0,
+          "color": "#d8674b",
+          "group": null,
+          "confidence": 0.8186258427302042,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Chrome",
+          "value": 22.0,
+          "display_value": "22.0%",
+          "percentage": 22.0,
+          "color": "#1d3640",
+          "group": null,
+          "confidence": 0.809048062477793,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Firefox",
+          "value": 21.0,
+          "display_value": "21.0%",
+          "percentage": 21.0,
+          "color": "#e89062",
+          "group": null,
+          "confidence": 0.8220580302923918,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Edge",
+          "value": 6.0,
+          "display_value": "6.0%",
+          "percentage": 6.0,
+          "color": "#dcb963",
+          "group": null,
+          "confidence": 0.8188829404115676,
+          "source": "printed percentage",
+          "bbox": null
+        }
+      ],
+      "raw_text": [
+        "Browser Market Share",
+        "Chrome",
+        "22%",
+        "Other",
+        "23%",
+        "27%",
+        "Safari",
+        "21%",
+        "6%",
+        "Firefox",
+        "Edge"
+      ],
+      "extraction_method": "colour-segmentation+angular-scan",
+      "confidence": 0.905,
+      "warnings": [],
+      "debug": {
+        "center": [
+          551.9799194335938,
+          462.6072692871094
+        ],
+        "radius": 362.55657958984375,
+        "palette": [
+          "#23877b",
+          "#d8674b",
+          "#1d3640",
+          "#e89062",
+          "#dcb963"
+        ],
+        "sectors": [
+          {
+            "center": [
+              551.9799194335938,
+              462.6072692871094
+            ],
+            "radius": 362.55657958984375,
+            "start_angle": 39.0,
+            "end_angle": 120.5,
+            "mid_angle": 79.75,
+            "share": 22.63888888888889,
+            "color": "#1d3640"
+          },
+          {
+            "center": [
+              551.9799194335938,
+              462.6072692871094
+            ],
+            "radius": 362.55657958984375,
+            "start_angle": 120.5,
+            "end_angle": 202.0,
+            "mid_angle": 161.25,
+            "share": 22.63888888888889,
+            "color": "#d8674b"
+          },
+          {
+            "center": [
+              551.9799194335938,
+              462.6072692871094
+            ],
+            "radius": 362.55657958984375,
+            "start_angle": 202.0,
+            "end_angle": 277.0,
+            "mid_angle": 239.5,
+            "share": 20.833333333333336,
+            "color": "#e89062"
+          },
+          {
+            "center": [
+              551.9799194335938,
+              462.6072692871094
+            ],
+            "radius": 362.55657958984375,
+            "start_angle": 277.0,
+            "end_angle": 301.0,
+            "mid_angle": 289.0,
+            "share": 6.666666666666667,
+            "color": "#dcb963"
+          },
+          {
+            "center": [
+              551.9799194335938,
+              462.6072692871094
+            ],
+            "radius": 362.55657958984375,
+            "start_angle": 301.0,
+            "end_angle": 39.0,
+            "mid_angle": 350.0,
+            "share": 27.22222222222222,
+            "color": "#23877b"
+          }
+        ],
+        "classification": {
+          "chart_type": "pie",
+          "confidence": 0.98,
+          "method": "heuristic",
+          "scores": {
+            "bar": 0.0,
+            "pie": 1,
+            "line": 0.0,
+            "infographic": 0.4631
+          }
+        },
+        "image_quality": {
+          "width": 1105,
+          "height": 878,
+          "blur_score": 525.31,
+          "is_blurry": false,
+          "colored_fraction": 0.4196,
+          "white_fraction": 0.5723
+        }
+      },
+      "source_file": "data\\samples\\pie_browser.png"
+    },
+    "summary": {
+      "text": "Browser Market Share shows how a whole is divided among 5 categories. Safari is the largest slice at 27%, while Edge is the smallest at 6%. Together, the top two categories account for 50.0% of the total. The difference between the largest and smallest shares is 21.0 percentage points.",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Browser Market Share shows 5 shares of a whole. Safari is the largest at 27.0%, while Edge is the smallest at 6.0%.",
+      "facts": [
+        "Safari accounts for 27.0% of the total.",
+        "The top two categories together account for 50.0%.",
+        "Edge has the smallest share at 6.0%.",
+        "The difference between the largest and smallest share is 21.0 percentage points."
+      ],
+      "top_label": "Safari",
+      "top_value": 27.0,
+      "bottom_label": "Edge",
+      "bottom_value": 6.0,
+      "total": 99.0,
+      "average": 19.8,
+      "top_share": 27.0,
+      "trend": null,
+      "change_percent": null,
+      "context": {
+        "metric": "share",
+        "unit": "%",
+        "n_points": 5,
+        "chart_type": "pie",
+        "sources": [
+          "printed percentage"
+        ],
+        "title": "Browser Market Share"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Browser Market Share",
+        "confidence": 0.9003048283713204,
+        "box": [
+          [
+            383.0,
+            13.0
+          ],
+          [
+            723.0,
+            14.0
+          ],
+          [
+            723.0,
+            39.0
+          ],
+          [
+            383.0,
+            38.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          553.0,
+          26.0
+        ]
+      },
+      {
+        "text": "Chrome",
+        "confidence": 0.7561922499111721,
+        "box": [
+          [
+            625.0,
+            60.0
+          ],
+          [
+            701.0,
+            60.0
+          ],
+          [
+            701.0,
+            81.0
+          ],
+          [
+            625.0,
+            81.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          663.0,
+          70.5
+        ]
+      },
+      {
+        "text": "22%",
+        "confidence": 0.7278474569320679,
+        "box": [
+          [
+            577.0,
+            194.0
+          ],
+          [
+            625.0,
+            194.0
+          ],
+          [
+            625.0,
+            220.0
+          ],
+          [
+            577.0,
+            220.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          601.0,
+          207.0
+        ]
+      },
+      {
+        "text": "Other",
+        "confidence": 0.794503370920817,
+        "box": [
+          [
+            120.0,
+            319.0
+          ],
+          [
+            180.0,
+            319.0
+          ],
+          [
+            180.0,
+            343.0
+          ],
+          [
+            120.0,
+            343.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          150.0,
+          331.0
+        ]
+      },
+      {
+        "text": "23%",
+        "confidence": 0.7496815472841263,
+        "box": [
+          [
+            283.0,
+            366.0
+          ],
+          [
+            329.0,
+            366.0
+          ],
+          [
+            329.0,
+            387.0
+          ],
+          [
+            283.0,
+            387.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          306.0,
+          376.5
+        ]
+      },
+      {
+        "text": "27%",
+        "confidence": 0.6903664171695709,
+        "box": [
+          [
+            787.0,
+            499.0
+          ],
+          [
+            833.0,
+            499.0
+          ],
+          [
+            833.0,
+            521.0
+          ],
+          [
+            787.0,
+            521.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          810.0,
+          510.0
+        ]
+      },
+      {
+        "text": "Safari",
+        "confidence": 0.7650233251707894,
+        "box": [
+          [
+            944.0,
+            522.0
+          ],
+          [
+            1004.0,
+            522.0
+          ],
+          [
+            1004.0,
+            547.0
+          ],
+          [
+            944.0,
+            547.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          974.0,
+          534.5
+        ]
+      },
+      {
+        "text": "21%",
+        "confidence": 0.5523119121789932,
+        "box": [
+          [
+            397.0,
+            678.0
+          ],
+          [
+            441.0,
+            678.0
+          ],
+          [
+            441.0,
+            700.0
+          ],
+          [
+            397.0,
+            700.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          419.0,
+          689.0
+        ]
+      },
+      {
+        "text": "6%",
+        "confidence": 0.5515022277832031,
+        "box": [
+          [
+            620.0,
+            700.0
+          ],
+          [
+            653.0,
+            700.0
+          ],
+          [
+            653.0,
+            724.0
+          ],
+          [
+            620.0,
+            724.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          636.5,
+          712.0
+        ]
+      },
+      {
+        "text": "Firefox",
+        "confidence": 0.8082321211695671,
+        "box": [
+          [
+            285.0,
+            794.0
+          ],
+          [
+            350.0,
+            797.0
+          ],
+          [
+            350.0,
+            819.0
+          ],
+          [
+            284.0,
+            817.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          317.0,
+          806.5
+        ]
+      },
+      {
+        "text": "Edge",
+        "confidence": 0.7955317616462707,
+        "box": [
+          [
+            679.0,
+            828.0
+          ],
+          [
+            731.0,
+            831.0
+          ],
+          [
+            730.0,
+            856.0
+          ],
+          [
+            677.0,
+            853.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          704.0,
+          842.0
+        ]
+      }
+    ],
+    "elapsed_seconds": 4.007,
+    "image_shape": [
+      1105,
+      878
+    ]
+  },
+  {
+    "chart": {
+      "chart_type": "pie",
+      "title": "Browser Market Share",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": null,
+      "metric": "share",
+      "unit": "%",
+      "points": [
+        {
+          "label": "Edge",
+          "value": 37.0,
+          "display_value": "37.0%",
+          "percentage": 37.0,
+          "color": "#99031d",
+          "group": null,
+          "confidence": 0.8234908957295604,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Safari",
+          "value": 31.0,
+          "display_value": "31.0%",
+          "percentage": 31.0,
+          "color": "#d86000",
+          "group": null,
+          "confidence": 0.8206445819869334,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Firefox",
+          "value": 17.0,
+          "display_value": "17.0%",
+          "percentage": 17.0,
+          "color": "#460a2f",
+          "group": null,
+          "confidence": 0.8483049222826957,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Chrome",
+          "value": 8.0,
+          "display_value": "8.0%",
+          "percentage": 8.0,
+          "color": "#0c3e4b",
+          "group": null,
+          "confidence": 0.8261251733862625,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Other",
+          "value": 7.0,
+          "display_value": "7.0%",
+          "percentage": 7.0,
+          "color": "#ea965f",
+          "group": null,
+          "confidence": 0.8359281851564135,
+          "source": "printed percentage",
+          "bbox": null
+        }
+      ],
+      "raw_text": [
+        "Browser Market Share",
+        "7%",
+        "17%",
+        "8%",
+        "Chrome",
+        "Safari",
+        "Edge",
+        "Firefox",
+        "Other",
+        "31%",
+        "37%"
+      ],
+      "extraction_method": "colour-segmentation+angular-scan",
+      "confidence": 0.905,
+      "warnings": [],
+      "debug": {
+        "center": [
+          476.84930419921875,
+          462.5961608886719
+        ],
+        "radius": 362.61785888671875,
+        "palette": [
+          "#99031d",
+          "#d86000",
+          "#460a2f",
+          "#0c3e4b",
+          "#ea965f"
+        ],
+        "sectors": [
+          {
+            "center": [
+              476.84930419921875,
+              462.5961608886719
+            ],
+            "radius": 362.61785888671875,
+            "start_angle": 31.0,
+            "end_angle": 60.0,
+            "mid_angle": 45.5,
+            "share": 8.055555555555555,
+            "color": "#0c3e4b"
+          },
+          {
+            "center": [
+              476.84930419921875,
+              462.5961608886719
+            ],
+            "radius": 362.61785888671875,
+            "start_angle": 60.0,
+            "end_angle": 86.5,
+            "mid_angle": 73.25,
+            "share": 7.361111111111112,
+            "color": "#ea965f"
+          },
+          {
+            "center": [
+              476.84930419921875,
+              462.5961608886719
+            ],
+            "radius": 362.61785888671875,
+            "start_angle": 86.5,
+            "end_angle": 147.0,
+            "mid_angle": 116.75,
+            "share": 16.805555555555557,
+            "color": "#460a2f"
+          },
+          {
+            "center": [
+              476.84930419921875,
+              462.5961608886719
+            ],
+            "radius": 362.61785888671875,
+            "start_angle": 147.0,
+            "end_angle": 279.5,
+            "mid_angle": 213.25,
+            "share": 36.80555555555556,
+            "color": "#99031d"
+          },
+          {
+            "center": [
+              476.84930419921875,
+              462.5961608886719
+            ],
+            "radius": 362.61785888671875,
+            "start_angle": 279.5,
+            "end_angle": 31.0,
+            "mid_angle": 335.25,
+            "share": 30.97222222222222,
+            "color": "#d86000"
+          }
+        ],
+        "classification": {
+          "chart_type": "pie",
+          "confidence": 0.98,
+          "method": "heuristic",
+          "scores": {
+            "bar": 0.0,
+            "pie": 1,
+            "line": 0.0,
+            "infographic": 0.4631
+          }
+        },
+        "image_quality": {
+          "width": 1105,
+          "height": 878,
+          "blur_score": 634.93,
+          "is_blurry": false,
+          "colored_fraction": 0.422,
+          "white_fraction": 0.5698
+        }
+      },
+      "source_file": "data\\samples\\pie_budget_legend.png"
+    },
+    "summary": {
+      "text": "Browser Market Share shows how a whole is divided among 5 categories. Edge is the largest slice at 37%, while Other is the smallest at 7%. Together, the top two categories account for 68.0% of the total. The difference between the largest and smallest shares is 30.0 percentage points.",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Browser Market Share shows 5 shares of a whole. Edge is the largest at 37.0%, while Other is the smallest at 7.0%.",
+      "facts": [
+        "Edge accounts for 37.0% of the total.",
+        "The top two categories together account for 68.0%.",
+        "Other has the smallest share at 7.0%.",
+        "The difference between the largest and smallest share is 30.0 percentage points."
+      ],
+      "top_label": "Edge",
+      "top_value": 37.0,
+      "bottom_label": "Other",
+      "bottom_value": 7.0,
+      "total": 100.0,
+      "average": 20.0,
+      "top_share": 37.0,
+      "trend": null,
+      "change_percent": null,
+      "context": {
+        "metric": "share",
+        "unit": "%",
+        "n_points": 5,
+        "chart_type": "pie",
+        "sources": [
+          "printed percentage"
+        ],
+        "title": "Browser Market Share"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Browser Market Share",
+        "confidence": 0.9049833218256632,
+        "box": [
+          [
+            308.0,
+            13.0
+          ],
+          [
+            647.0,
+            14.0
+          ],
+          [
+            647.0,
+            39.0
+          ],
+          [
+            308.0,
+            38.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          477.5,
+          26.0
+        ]
+      },
+      {
+        "text": "7%",
+        "confidence": 0.5196430087089539,
+        "box": [
+          [
+            538.0,
+            202.0
+          ],
+          [
+            570.0,
+            202.0
+          ],
+          [
+            570.0,
+            226.0
+          ],
+          [
+            538.0,
+            226.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          554.0,
+          214.0
+        ]
+      },
+      {
+        "text": "17%",
+        "confidence": 0.6368207186460495,
+        "box": [
+          [
+            341.0,
+            217.0
+          ],
+          [
+            385.0,
+            217.0
+          ],
+          [
+            385.0,
+            240.0
+          ],
+          [
+            341.0,
+            240.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          363.0,
+          228.5
+        ]
+      },
+      {
+        "text": "8%",
+        "confidence": 0.6525912483533224,
+        "box": [
+          [
+            643.0,
+            265.0
+          ],
+          [
+            678.0,
+            265.0
+          ],
+          [
+            678.0,
+            288.0
+          ],
+          [
+            643.0,
+            288.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          660.5,
+          276.5
+        ]
+      },
+      {
+        "text": "Chrome",
+        "confidence": 0.7714877213750567,
+        "box": [
+          [
+            1009.0,
+            396.0
+          ],
+          [
+            1085.0,
+            396.0
+          ],
+          [
+            1085.0,
+            418.0
+          ],
+          [
+            1009.0,
+            418.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          1047.0,
+          407.0
+        ]
+      },
+      {
+        "text": "Safari",
+        "confidence": 0.7464131202016558,
+        "box": [
+          [
+            1005.0,
+            422.0
+          ],
+          [
+            1067.0,
+            419.0
+          ],
+          [
+            1068.0,
+            445.0
+          ],
+          [
+            1006.0,
+            447.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          1036.5,
+          433.0
+        ]
+      },
+      {
+        "text": "Edge",
+        "confidence": 0.7518411159515381,
+        "box": [
+          [
+            1008.0,
+            452.0
+          ],
+          [
+            1061.0,
+            452.0
+          ],
+          [
+            1061.0,
+            479.0
+          ],
+          [
+            1008.0,
+            479.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          1034.5,
+          465.5
+        ]
+      },
+      {
+        "text": "Firefox",
+        "confidence": 0.8729636967182159,
+        "box": [
+          [
+            1008.0,
+            480.0
+          ],
+          [
+            1074.0,
+            480.0
+          ],
+          [
+            1074.0,
+            504.0
+          ],
+          [
+            1008.0,
+            504.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          1041.0,
+          492.0
+        ]
+      },
+      {
+        "text": "Other",
+        "confidence": 0.8163381020228068,
+        "box": [
+          [
+            1006.0,
+            508.0
+          ],
+          [
+            1067.0,
+            508.0
+          ],
+          [
+            1067.0,
+            532.0
+          ],
+          [
+            1006.0,
+            532.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          1036.5,
+          520.0
+        ]
+      },
+      {
+        "text": "31%",
+        "confidence": 0.557227298617363,
+        "box": [
+          [
+            693.0,
+            563.0
+          ],
+          [
+            737.0,
+            563.0
+          ],
+          [
+            737.0,
+            585.0
+          ],
+          [
+            693.0,
+            585.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          715.0,
+          574.0
+        ]
+      },
+      {
+        "text": "37%",
+        "confidence": 0.6984545141458511,
+        "box": [
+          [
+            235.0,
+            593.0
+          ],
+          [
+            279.0,
+            593.0
+          ],
+          [
+            279.0,
+            616.0
+          ],
+          [
+            235.0,
+            616.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          257.0,
+          604.5
+        ]
+      }
+    ],
+    "elapsed_seconds": 3.245,
+    "image_shape": [
+      1105,
+      878
+    ]
+  },
+  {
+    "chart": {
+      "chart_type": "pie",
+      "title": "Customer Channel Mix",
+      "subtitle": null,
+      "x_label": null,
+      "y_label": null,
+      "metric": "share",
+      "unit": "%",
+      "points": [
+        {
+          "label": "Online",
+          "value": 35.0,
+          "display_value": "35.0%",
+          "percentage": 35.0,
+          "color": "#1b699f",
+          "group": null,
+          "confidence": 0.8285691903318677,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Retail",
+          "value": 27.0,
+          "display_value": "27.0%",
+          "percentage": 27.0,
+          "color": "#e8730c",
+          "group": null,
+          "confidence": 0.8167792830296925,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Partner",
+          "value": 24.0,
+          "display_value": "24.0%",
+          "percentage": 24.0,
+          "color": "#248524",
+          "group": null,
+          "confidence": 0.8104715076088905,
+          "source": "printed percentage",
+          "bbox": null
+        },
+        {
+          "label": "Direct",
+          "value": 14.0,
+          "display_value": "14.0%",
+          "percentage": 14.0,
+          "color": "#bd2222",
+          "group": null,
+          "confidence": 0.8051717063358852,
+          "source": "printed percentage",
+          "bbox": null
+        }
+      ],
+      "raw_text": [
+        "Customer Channel Mix",
+        "Partner",
+        "24%",
+        "Direct",
+        "14%",
+        "27%",
+        "Retail",
+        "35%",
+        "Online"
+      ],
+      "extraction_method": "colour-segmentation+angular-scan",
+      "confidence": 0.88,
+      "warnings": [],
+      "debug": {
+        "center": [
+          551.945068359375,
+          462.56536865234375
+        ],
+        "radius": 362.61187744140625,
+        "palette": [
+          "#1b699f",
+          "#e8730c",
+          "#248524",
+          "#bd2222"
+        ],
+        "sectors": [
+          {
+            "center": [
+              551.945068359375,
+              462.56536865234375
+            ],
+            "radius": 362.61187744140625,
+            "start_angle": 0.0,
+            "end_angle": 51.0,
+            "mid_angle": 25.5,
+            "share": 14.166666666666666,
+            "color": "#bd2222"
+          },
+          {
+            "center": [
+              551.945068359375,
+              462.56536865234375
+            ],
+            "radius": 362.61187744140625,
+            "start_angle": 51.0,
+            "end_angle": 138.5,
+            "mid_angle": 94.75,
+            "share": 24.305555555555554,
+            "color": "#248524"
+          },
+          {
+            "center": [
+              551.945068359375,
+              462.56536865234375
+            ],
+            "radius": 362.61187744140625,
+            "start_angle": 138.5,
+            "end_angle": 235.0,
+            "mid_angle": 186.75,
+            "share": 26.805555555555554,
+            "color": "#e8730c"
+          },
+          {
+            "center": [
+              551.945068359375,
+              462.56536865234375
+            ],
+            "radius": 362.61187744140625,
+            "start_angle": 235.0,
+            "end_angle": 0.0,
+            "mid_angle": 297.5,
+            "share": 34.72222222222222,
+            "color": "#1b699f"
+          }
+        ],
+        "classification": {
+          "chart_type": "pie",
+          "confidence": 0.98,
+          "method": "heuristic",
+          "scores": {
+            "bar": 0.0,
+            "pie": 1,
+            "line": 0.0,
+            "infographic": 0.4351
+          }
+        },
+        "image_quality": {
+          "width": 1105,
+          "height": 878,
+          "blur_score": 461.59,
+          "is_blurry": false,
+          "colored_fraction": 0.3599,
+          "white_fraction": 0.6334
+        }
+      },
+      "source_file": "data\\samples\\pie_energy_donut.png"
+    },
+    "summary": {
+      "text": "Customer Channel Mix shows how a whole is divided among 4 categories. Online is the largest slice at 35%, while Direct is the smallest at 14%. Together, the top two categories account for 62.0% of the total. The difference between the largest and smallest shares is 21.0 percentage points.",
+      "style": "short",
+      "backend": "template",
+      "model": null,
+      "grounded": true,
+      "notes": []
+    },
+    "insights": {
+      "headline": "Customer Channel Mix shows 4 shares of a whole. Online is the largest at 35.0%, while Direct is the smallest at 14.0%.",
+      "facts": [
+        "Online accounts for 35.0% of the total.",
+        "The top two categories together account for 62.0%.",
+        "Direct has the smallest share at 14.0%.",
+        "The difference between the largest and smallest share is 21.0 percentage points."
+      ],
+      "top_label": "Online",
+      "top_value": 35.0,
+      "bottom_label": "Direct",
+      "bottom_value": 14.0,
+      "total": 100.0,
+      "average": 25.0,
+      "top_share": 35.0,
+      "trend": null,
+      "change_percent": null,
+      "context": {
+        "metric": "share",
+        "unit": "%",
+        "n_points": 4,
+        "chart_type": "pie",
+        "sources": [
+          "printed percentage"
+        ],
+        "title": "Customer Channel Mix"
+      }
+    },
+    "ocr": [
+      {
+        "text": "Customer Channel Mix",
+        "confidence": 0.8826167214484442,
+        "box": [
+          [
+            382.0,
+            13.0
+          ],
+          [
+            726.0,
+            13.0
+          ],
+          [
+            726.0,
+            40.0
+          ],
+          [
+            382.0,
+            40.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          554.0,
+          26.5
+        ]
+      },
+      {
+        "text": "Partner",
+        "confidence": 0.7618860304355621,
+        "box": [
+          [
+            451.0,
+            54.0
+          ],
+          [
+            523.0,
+            56.0
+          ],
+          [
+            522.0,
+            77.0
+          ],
+          [
+            451.0,
+            75.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          487.0,
+          65.5
+        ]
+      },
+      {
+        "text": "24%",
+        "confidence": 0.6578682065010071,
+        "box": [
+          [
+            508.0,
+            170.0
+          ],
+          [
+            553.0,
+            170.0
+          ],
+          [
+            553.0,
+            192.0
+          ],
+          [
+            508.0,
+            192.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          530.5,
+          181.0
+        ]
+      },
+      {
+        "text": "Direct",
+        "confidence": 0.7406868253435407,
+        "box": [
+          [
+            913.0,
+            280.0
+          ],
+          [
+            973.0,
+            280.0
+          ],
+          [
+            973.0,
+            302.0
+          ],
+          [
+            913.0,
+            302.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          943.0,
+          291.0
+        ]
+      },
+      {
+        "text": "14%",
+        "confidence": 0.6783037930727005,
+        "box": [
+          [
+            786.0,
+            330.0
+          ],
+          [
+            831.0,
+            330.0
+          ],
+          [
+            831.0,
+            353.0
+          ],
+          [
+            786.0,
+            353.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          808.5,
+          341.5
+        ]
+      },
+      {
+        "text": "27%",
+        "confidence": 0.5342014729976654,
+        "box": [
+          [
+            249.0,
+            485.0
+          ],
+          [
+            294.0,
+            485.0
+          ],
+          [
+            294.0,
+            507.0
+          ],
+          [
+            249.0,
+            507.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          271.5,
+          496.0
+        ]
+      },
+      {
+        "text": "Retail",
+        "confidence": 0.7871171321187701,
+        "box": [
+          [
+            101.0,
+            497.0
+          ],
+          [
+            160.0,
+            497.0
+          ],
+          [
+            160.0,
+            521.0
+          ],
+          [
+            101.0,
+            521.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          130.5,
+          509.0
+        ]
+      },
+      {
+        "text": "35%",
+        "confidence": 0.6969924867153168,
+        "box": [
+          [
+            662.0,
+            704.0
+          ],
+          [
+            706.0,
+            704.0
+          ],
+          [
+            706.0,
+            727.0
+          ],
+          [
+            662.0,
+            727.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          684.0,
+          715.5
+        ]
+      },
+      {
+        "text": "Online",
+        "confidence": 0.8342767613274711,
+        "box": [
+          [
+            735.0,
+            805.0
+          ],
+          [
+            802.0,
+            807.0
+          ],
+          [
+            802.0,
+            832.0
+          ],
+          [
+            734.0,
+            829.0
+          ]
+        ],
+        "image_width": 1105,
+        "image_height": 878,
+        "center": [
+          768.0,
+          818.5
+        ]
+      }
+    ],
+    "elapsed_seconds": 2.954,
+    "image_shape": [
+      1105,
+      878
+    ]
+  }
+]

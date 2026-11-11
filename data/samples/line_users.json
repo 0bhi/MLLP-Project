@@ -1,0 +1,21 @@
+{
+  "chart_type": "line",
+  "title": "Temperature Anomaly",
+  "metric": "Temperature (\u00b0C)",
+  "labels": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "values": [
+    67,
+    76,
+    82,
+    94,
+    93,
+    106
+  ]
+}

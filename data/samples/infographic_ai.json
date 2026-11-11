@@ -1,0 +1,14 @@
+{
+  "chart_type": "infographic",
+  "title": "Learning Outcomes",
+  "labels": [
+    "course completion",
+    "average rating",
+    "learners enrolled"
+  ],
+  "values": [
+    "89%",
+    "4.6/5",
+    "32K"
+  ]
+}

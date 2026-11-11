@@ -1,0 +1,18 @@
+{
+  "chart_type": "pie",
+  "title": "Customer Channel Mix",
+  "labels": [
+    "Online",
+    "Retail",
+    "Partner",
+    "Direct"
+  ],
+  "values": [
+    34.7,
+    27.0,
+    24.1,
+    14.2
+  ],
+  "donut": true,
+  "legend": false
+}
