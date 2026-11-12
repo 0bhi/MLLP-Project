@@ -39,6 +39,10 @@ chartscribe batch data\samples --output outputs\sample-results.json
 The optional LLM backend is selected with `--backend llm` or in the UI. Template
 mode is the recommended reproducible mode because it requires no network access.
 
+## Presentation
+
+[View the ChartScribe presentation on Loom](https://www.loom.com/share/756ffb99d9d94b01bc68c28e4bfd38a4)
+
 ## Processing pipeline
 
 ```text
