@@ -24,6 +24,10 @@ pip install -e .
 streamlit run app.py
 ```
 
+The Streamlit app includes the charts in `data\samples` in the **Try a sample
+chart** menu. Select a sample to preview it and run the pipeline without
+uploading a file; an uploaded image takes precedence if both are provided.
+
 For a command-line run:
 
 ```powershell
@@ -49,13 +53,13 @@ representation.
 
 ## Repository layout
 
-| Path | Purpose |
-|---|---|
-| `app.py` | Streamlit demonstration interface |
-| `src/chartscribe/` | Reusable library, extractors, OCR, insights, and summaries |
-| `data/samples/` | Generated sample charts and their ground-truth JSON |
-| `scripts/generate_data.py` | Recreates the sample chart dataset |
-| `report/` | Report outline, generated PDF, and presentation materials |
+| Path                       | Purpose                                                    |
+| -------------------------- | ---------------------------------------------------------- |
+| `app.py`                   | Streamlit demonstration interface                          |
+| `src/chartscribe/`         | Reusable library, extractors, OCR, insights, and summaries |
+| `data/samples/`            | Generated sample charts and their ground-truth JSON        |
+| `scripts/generate_data.py` | Recreates the sample chart dataset                         |
+| `report/`                  | Report outline, generated PDF, and presentation materials  |
 
 ## Limitations
 
@@ -63,14 +67,6 @@ Photographs, 3-D charts, overlapping series, handwritten labels, and very low
 resolution images may reduce OCR or geometry accuracy. The warning list and
 confidence value should be reported with results rather than treating extraction
 as ground truth.
-
-## Academic deliverables
-
-The `report/` directory contains a ready-to-complete report outline, contribution
-table, PDF report, and presentation deck. Regenerate the editable deliverables
-with `python scripts\generate_deliverables.py`. Add group names/roll numbers,
-screenshots from the app, the GitHub URL, and a recorded demonstration before
-submission.
 
 ## References
 
